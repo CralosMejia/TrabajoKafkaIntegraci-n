@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/publishMessages" name="KafkaTransport" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <kafkaTransport.publishMessages configKey="Sample_Kafka">
+                <topic>test</topic>
+                <partitionNo>0</partitionNo>
+            </kafkaTransport.publishMessages>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
