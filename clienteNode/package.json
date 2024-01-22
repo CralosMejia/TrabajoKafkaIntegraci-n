@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev ./index.ts",
+    "dev1": "ts-node-dev ./indexTest.ts",
+    "dev2": "ts-node-dev ./indexTest1.ts",
     "start": "node build/index.js"
   },
   "author": "",
